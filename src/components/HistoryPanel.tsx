@@ -10,7 +10,7 @@ type SourceFilter = 'all' | 'practice' | 'exam';
 type CorrectFilter = 'all' | 'correct' | 'incorrect';
 
 // ─── Constants ────────────────────────────────────────────────────────────────
-const CATEGORIES: Category[] = ['aritmetica', 'algebra', 'ecuaciones', 'fracciones', 'porcentajes'];
+const CATEGORIES: Category[] = ['aritmetica', 'algebra', 'ecuaciones', 'fracciones', 'porcentajes', 'trigonometria', 'logaritmos', 'limites', 'derivadas', 'integrales', 'matrices'];
 const PAGE_SIZE = 20;
 
 // ─── Helpers ──────────────────────────────────────────────────────────────────

@@ -3,7 +3,13 @@ export type Category =
   | 'algebra'
   | 'ecuaciones'
   | 'fracciones'
-  | 'porcentajes';
+  | 'porcentajes'
+  | 'trigonometria'
+  | 'logaritmos'
+  | 'limites'
+  | 'derivadas'
+  | 'integrales'
+  | 'matrices';
 
 export type Difficulty = 'facil' | 'medio' | 'dificil';
 
@@ -26,17 +32,23 @@ export interface GeneratedProblem {
 }
 
 export const CATEGORY_LABELS: Record<Category, string> = {
-  aritmetica: 'Aritmética Básica',
-  algebra: 'Álgebra',
+  aritmetica: 'Aritmetica Basica',
+  algebra: 'Algebra',
   ecuaciones: 'Ecuaciones',
   fracciones: 'Fracciones',
   porcentajes: 'Porcentajes',
+  trigonometria: 'Trigonometria',
+  logaritmos: 'Logaritmos',
+  limites: 'Limites',
+  derivadas: 'Derivadas',
+  integrales: 'Integrales',
+  matrices: 'Matrices',
 };
 
 export const DIFFICULTY_LABELS: Record<Difficulty, string> = {
-  facil: 'Fácil',
+  facil: 'Facil',
   medio: 'Medio',
-  dificil: 'Difícil',
+  dificil: 'Dificil',
 };
 
 export const CATEGORY_COLORS: Record<Category, string> = {
@@ -45,6 +57,12 @@ export const CATEGORY_COLORS: Record<Category, string> = {
   ecuaciones: 'bg-orange-100 text-orange-700 border border-orange-200',
   fracciones: 'bg-rose-100 text-rose-700 border border-rose-200',
   porcentajes: 'bg-green-100 text-green-700 border border-green-200',
+  trigonometria: 'bg-cyan-100 text-cyan-700 border border-cyan-200',
+  logaritmos: 'bg-teal-100 text-teal-700 border border-teal-200',
+  limites: 'bg-lime-100 text-lime-700 border border-lime-200',
+  derivadas: 'bg-fuchsia-100 text-fuchsia-700 border border-fuchsia-200',
+  integrales: 'bg-indigo-100 text-indigo-700 border border-indigo-200',
+  matrices: 'bg-slate-100 text-slate-700 border border-slate-200',
 };
 
 export const DIFFICULTY_COLORS: Record<Difficulty, string> = {
@@ -54,11 +72,17 @@ export const DIFFICULTY_COLORS: Record<Difficulty, string> = {
 };
 
 export const CATEGORY_ICONS: Record<Category, string> = {
-  aritmetica: '➕',
-  algebra: '🔤',
-  ecuaciones: '⚖️',
-  fracciones: '½',
+  aritmetica: '+',
+  algebra: 'x',
+  ecuaciones: '=',
+  fracciones: '1/2',
   porcentajes: '%',
+  trigonometria: 'sin',
+  logaritmos: 'log',
+  limites: 'lim',
+  derivadas: "f'",
+  integrales: 'S',
+  matrices: '[ ]',
 };
 
 export interface HistoryEntry {

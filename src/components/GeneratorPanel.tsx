@@ -16,7 +16,7 @@ const CATEGORIES: Category[] = [
   'limites',
   'derivadas',
   'integrales',
-  'matrices'
+  'matrices',
 ];
 
 const DIFFICULTIES: Difficulty[] = ['facil', 'medio', 'dificil'];

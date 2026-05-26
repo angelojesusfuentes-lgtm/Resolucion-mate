@@ -17,6 +17,7 @@ const CATEGORIES: Category[] = [
   'derivadas',
   'integrales',
   'matrices',
+  'razonamiento matematico',
 ];
 
 const DIFFICULTIES: Difficulty[] = ['facil', 'medio', 'dificil'];

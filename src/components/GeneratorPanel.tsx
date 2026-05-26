@@ -16,7 +16,6 @@ const CATEGORIES: Category[] = [
   'limites',
   'derivadas',
   'integrales',
-  'matrices'
 ];
 
 const DIFFICULTIES: Difficulty[] = ['facil', 'medio', 'dificil'];
@@ -235,4 +234,3 @@ return (
 };
 
 export default GeneratorPanel;
-

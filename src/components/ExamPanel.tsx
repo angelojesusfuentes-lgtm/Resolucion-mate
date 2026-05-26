@@ -14,7 +14,7 @@ interface ExamAnswer {
   showSolution: boolean;
 }
 
-const CATEGORIES: Category[] = ['aritmetica', 'algebra', 'ecuaciones', 'fracciones', 'porcentajes', 'trigonometria', 'logaritmos', 'limites', 'derivadas', 'integrales', 'matrices'];
+const CATEGORIES: Category[] = ['aritmetica', 'algebra', 'ecuaciones', 'fracciones', 'porcentajes', 'trigonometria', 'logaritmos', 'limites', 'derivadas', 'integrales', 'matrices',   'razonamiento matematico'];
 const DIFFICULTIES: Difficulty[] = ['facil', 'medio', 'dificil'];
 
 function checkAnswer(userInput: string, correctAnswer: string): boolean {
